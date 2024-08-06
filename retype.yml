@@ -1,10 +1,10 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: mkdocs.subgplayz.me
 branding:
   title: Unofficial MineKeep Docs
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: MK Dashboard
+  link: https://minekeep.net/servers
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
