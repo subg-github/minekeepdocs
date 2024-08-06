@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.776287293784">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.776287421928">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.776287293784" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.776287421928" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.776287293784" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.776287421928" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.776287293784" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.776287421928" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -169,35 +169,23 @@
         <span>Frequently Asked Questions</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="can-i-join-using-a-cracked-account">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-join-using-a-cracked-account">#</doc-anchor-trigger>
-        <span>Can I join using a cracked account?</span>
-    </h2>
-</doc-anchor-target>
+<doc-panel id="can-i-join-using-a-cracked-account" collapsed>
+    <template #title>Can I join using a cracked account?</template>
 <p>Cracked accounts are not able to join on MineKeep due to Minecraft&#x27;s EULA.
 Please <a href="https://minecraft.net">purchase an account</a> to join.</p>
-<doc-anchor-target id="can-i-join-on-bedrock">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-join-on-bedrock">#</doc-anchor-trigger>
-        <span>Can I join on bedrock?</span>
-    </h2>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="can-i-join-on-bedrock" collapsed>
+    <template #title>Can I join on bedrock?</template>
 <p>Bedrock accounts are able to join MineKeep with the IP <code v-pre>play.minekeep.net</code> and the port <code v-pre>19132</code>.</p>
-<doc-anchor-target id="can-i-add-forgefabric-mods-to-my-server">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-add-forgefabric-mods-to-my-server">#</doc-anchor-trigger>
-        <span>Can I add forge/fabric mods to my server?</span>
-    </h2>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="can-i-add-forge-fabric-mods-to-my-server" collapsed>
+    <template #title>Can I add forge/fabric mods to my server?</template>
 <p>MineKeep does not currently support forge/fabric modding, although it is a planned feature.</p>
-<doc-anchor-target id="does-minekeep-provide-additional-ports">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#does-minekeep-provide-additional-ports">#</doc-anchor-trigger>
-        <span>Does MineKeep provide additional ports?</span>
-    </h2>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="does-minekeep-provide-additional-ports" collapsed>
+    <template #title>Does MineKeep provide additional ports?</template>
 <p>MineKeep does not currently provide additional ports. This means plugins such as dynmap or votifier will not work. This may be added in the future.</p>
+</doc-panel>
 
                                 
                                 <!-- Required only on API pages -->
