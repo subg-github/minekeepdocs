@@ -12,3 +12,6 @@ Bedrock accounts are able to join MineKeep with the IP `play.minekeep.net` and t
 
 ## Can I add forge/fabric mods to my server?
 MineKeep does not currently support forge/fabric modding, although it is a planned feature.
+
+## Does MineKeep provide additional ports?
+MineKeep does not currently provide additional ports. This means plugins such as dynmap or votifier will not work. This may be added in the future.
